@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://kit.fontawesome.com/d13dbdaed9.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            margin: 1.5em;
+        }
+
+        h2 span {
+            color: #f58d54;
+        }
+
+        section.formulario-container {
+            padding: 80px 4%;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            border: #f58d54 solid 0.1em;
+            border-radius: 5%;
+            box-shadow: rgba(161, 126, 9, 0.25) 0px 13px 27px -5px, rgba(255, 102, 0, 0.3) 0px 8px 16px -8px;
+            padding: 20px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            background-color: hsl(0, 0%, 23%);
+            border: 0;
+            outline: 0;
+            padding: 20px 15px;
+            border-radius: 1.3em;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        form textarea {
+            resize: none;
+            max-height: inherit;
+        }
+
+        form .btn-enviar {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        form .btn-enviar input[type=submit] {
+            width: 120px;
+            background-color: #f58d54;
+            color: #fff;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        form .btn-enviar input[type=submit]:hover {
+            background-color: #fff;
+            color: #f58d54;
+        }
+
+        .container-footer-box {
+            display: flex;
+            padding: 0.3%;
+            justify-content: space-between;
+            flex-direction: column;
+            text-align: center;
+            background-color: black;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <a href="index.html" class="logo"></a>
+            <div class="header-right">
+                <a class="active" href="index.html">Home</a>
+                <a href="contato.html">Contato</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </section>
+    <section class="formulario-container">
+        <div class="interface-container">
+            <h2>Entre em <span>Contato</span></h2>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Seu nome:" required>
+                <input type="text" name="" id="" placeholder="Seu E-mail:" required>
+                <input type="text" name="" id="" placeholder="Seu Celular:" required>
+                <textarea name="" id="" placeholder="Digite Sua Mensagem" required></textarea>
+                <div class="btn-enviar">
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="container-footer-box">
+        <div>
+            <h2>Informações de <span>Contato:</span></h2>
+        </div>
+        <div>
+            <p><span><i class="fa-solid fa-phone"></i> Telefone:</span> +55 47 97070-7070</p>
+        </div>
+        <div>
+            <p><i class="fa-solid fa-envelope"></i> E-mail: Wonderful@contato.com.br <EMAIL></p>
+        </div>
+        <div>
+            <p><i class="fa-solid fa-map-marker-alt"></i> Endereço: Av. <NAME>, 1000 - São Paulo - SP</p>
+        </div>
+    </footer>
+</body>
+
+</html>
